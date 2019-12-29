@@ -37,5 +37,7 @@ public class BrowserWindow {
 		driver.switchTo().newWindow(WindowType.WINDOW); // new browser window
 		driver.get("https://www.gmail.com");
 	}
+	
+	/*new api*/
 
 }
