@@ -1,2 +1,2 @@
 # Selenium4Feature
-Material for Selenium 4 features
+Tutorial for Selenium 4 features
