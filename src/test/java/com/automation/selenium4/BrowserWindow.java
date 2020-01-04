@@ -10,6 +10,7 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -20,7 +21,7 @@ public class BrowserWindow {
 	@Before
 	public void steup(){
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 	}
 	
 	@After
@@ -37,7 +38,5 @@ public class BrowserWindow {
 		driver.switchTo().newWindow(WindowType.WINDOW); // new browser window
 		driver.get("https://www.gmail.com");
 	}
-	
-	/*new api*/
 
 }
