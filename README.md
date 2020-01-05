@@ -1,8 +1,8 @@
-# **Selenium4Feature**
+# Selenium4Feature
 
 Tutorial for features introduce in Selenium 4
 
-## **YouTube Playlist**
+## YouTube Playlist
 
 - **Selenium 4 Features** https://www.youtube.com/playlist?list=PLlsKgYi2Lw703qHQKFqAdPjhsb0Hf1IDl
 
